@@ -1,0 +1,92 @@
+2022-09-18T19:02:43+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\serbaserbu.id\wp-includes\comment-template.php(1556): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1611): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\serbaserbu.id\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\layouts\product.php(63): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'right-sidebar-s...')
+#12 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\serbaserbu.id\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\serbaserbu.id\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\serbaserbu.id\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown di C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php pada baris 107
+
+2022-09-18T19:03:44+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\serbaserbu.id\wp-includes\comment-template.php(1556): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1611): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\serbaserbu.id\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\layouts\product.php(63): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'right-sidebar-s...')
+#12 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\serbaserbu.id\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\serbaserbu.id\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\serbaserbu.id\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown di C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php pada baris 107
+
+2022-09-18T19:13:40+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\serbaserbu.id\wp-includes\comment-template.php(1556): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1611): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\serbaserbu.id\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\layouts\product.php(63): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'right-sidebar-s...')
+#12 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\serbaserbu.id\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\serbaserbu.id\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\serbaserbu.id\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown di C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php pada baris 107
+
+2022-09-18T19:14:07+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php:107
+Stack trace:
+#0 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php(107): sprintf('You must be %sl...', '<a href="http:/...', '</a>')
+#1 C:\xampp\htdocs\serbaserbu.id\wp-includes\comment-template.php(1556): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\tabs\tabs.php(61): comments_template('reviews', Array)
+#3 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1611): wc_get_template('single-product/...')
+#5 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(307): woocommerce_output_product_data_tabs('')
+#6 C:\xampp\htdocs\serbaserbu.id\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\serbaserbu.id\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product\layouts\product.php(63): do_action('woocommerce_aft...')
+#9 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#11 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\content-single-product.php(41): wc_get_template_part('single-product/...', 'right-sidebar-s...')
+#12 C:\xampp\htdocs\serbaserbu.id\wp-includes\template.php(772): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\serbaserbu.id\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#14 C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product.php(38): wc_get_template_part('content', 'single-product')
+#15 C:\xampp\htdocs\serbaserbu.id\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#16 C:\xampp\htdocs\serbaserbu.id\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\serbaserbu.id\index.php(17): require('C:\\xampp\\htdocs...')
+#18 {main}
+  thrown di C:\xampp\htdocs\serbaserbu.id\wp-content\themes\flatsome\woocommerce\single-product-reviews.php pada baris 107
+
